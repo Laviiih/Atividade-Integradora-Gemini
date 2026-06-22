@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Meu cliente de IA com Gemini</h1>
+        <label for="txtPrompt">Digite o seu prompt aqui</label>
+        <textarea id="txtPrompt" placeholder="Escreva aqui..."></textarea>
+        <button onclick="enviarRequisicao()">Enviar para o Gemini</button>
+        <h3>Resposta do Gemini:</h3>
+        <div id="txtResposta">
+            Aguardando resposta...
+        </div>
+    </div>  
+    <script src="app.js"></script>
+</body>
+</html>

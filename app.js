@@ -1,4 +1,4 @@
-var API_KEY = "AQ.Ab8RN6KbsW1nJMyqbhto3Sqb0LtiquNQP5PYMc5ctGLFs_ZJyw";
+var API_KEY = "SUA_CHAVE_DE_API_AQUI";
 
 function enviarRequisicao(){
     var promptUsuario = document.getElementById("txtPrompt").value;
